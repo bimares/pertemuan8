@@ -5,6 +5,7 @@ import 'pertemuan5.dart';
 import 'pertemuan6.dart';
 import 'pertemuan7.dart';
 import 'pertemuan8.dart';
+import 'pertemuan9.dart';
 
 class ListPertemuanPage extends StatelessWidget {
   const ListPertemuanPage({Key? key}) : super(key: key);
@@ -18,6 +19,7 @@ class ListPertemuanPage extends StatelessWidget {
     {'no': 6, 'judul': 'CheckBox', 'tanggal': 'Minggu 6', 'icon': Icons.check_box},
     {'no': 7, 'judul': 'RadioButton', 'tanggal': 'Minggu 7', 'icon': Icons.radio_button_checked},
     {'no': 8, 'judul': 'TextField & TextEditingController', 'tanggal': 'Minggu 8', 'icon': Icons.text_fields},
+    {'no': 9, 'judul': 'Date & Time Picker', 'tanggal': 'Minggu 9', 'icon': Icons.calendar_today},
   ];
 
   @override
@@ -63,6 +65,8 @@ class ListPertemuanPage extends StatelessWidget {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => const Pertemuan7Page()));
                 } else if (item['no'] == 8) {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => const Pertemuan8()));
+                } else if (item['no'] == 9) {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const Pertemuan9()));
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(content: Text('${item['judul']} dipilih')),

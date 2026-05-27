@@ -10,21 +10,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  
+  # Package untuk format tanggal
+  intl: ^0.18.0
+  
+  # Bottom navigation bar
   salomon_bottom_bar: ^3.3.0
+  
+  # Toast notification
   fluttertoast: ^8.2.5
-
+  
+  # Icons
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  
   flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
   assets:
     - assets/profile.JPEG
-  
-

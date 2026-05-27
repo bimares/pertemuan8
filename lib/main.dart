@@ -3,6 +3,7 @@ import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'pages/list_pertemuan.dart';
 import 'pages/profile_page.dart';
 import 'pages/pertemuan8.dart';
+import 'pages/pertemuan9.dart';
 
 void main() {
   runApp(const MyApp());

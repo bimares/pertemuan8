@@ -27,7 +27,7 @@ class _Pertemuan8State extends State<Pertemuan8> {
 
   // 2. Data untuk Spinner (Dropdown)
   final List<String> _educationLevels = ['SMA/Sederajat', 'D3', 'S1', 'S2', 'S3'];
-  final List<String> _years = ['2020', '2021', '2022', '2023', '2024'];
+  final List<String> _years = ['2021', '2022', '2023', '2024', '2025'];
 
   // 3. Variabel Penampung
   String? _selectedLevel;
