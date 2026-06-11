@@ -3,7 +3,8 @@ import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'pages/list_pertemuan.dart';
 import 'pages/profile_page.dart';
 import 'pages/pertemuan8.dart';
-import 'pages/pertemuan9.dart';
+import 'pages/login_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -20,12 +21,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const MainPage(),
+      home: const LoginPage(), // ← ini akan diubah nanti setelah login
       debugShowCheckedModeBanner: false,
     );
   }
 }
 
+// PASTIKAN CLASS MAINPage ADA DI SINI
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
